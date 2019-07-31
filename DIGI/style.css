@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Bree+Serif|Lobster|Roboto+Slab');
+
+body
+{
+	font-family: 'Roboto Slab';
+	background-color: #e9ebef66;
+}
+
+#sub h3:{
+	font-family: 'Bitter';
+	font-size: 35px;
+	color: #000; 
+}
+
+.navbar-brand{
+	font-family: 'Lobster';
+	font-size: 30px;
+}
+
+
+
+.nav-item{
+	font-size: 15px;
+	color: #E9E9E9;
+}
+
+.card{
+	border-radius: 18px;
+	/*background-color: #FDEDB4;*/
+}
+
+#sub .card-header{
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+}
+
+#sub .btn{
+	border-radius: 12px;
+}
+
+#sub-enroll .card-header{
+	border-radius: 18px;
+}
+
+#aadhartable tr:nth-child(even){
+	background-image: linear-gradient(to right, lightgrey, white);
+}
+
+#aadhartable tr:nth-child(odd){
+	background-image: linear-gradient(to left, lightgrey, white);
+}
+
+#aadhartable th{
+	background-image: linear-gradient(to right, orange, white);
+	color: white;
+}
+
+#aadhartable td{
+	padding-left: 55px;
+	text-align: left;
+}
+
+#collapse2 li{
+	color: #FF0000;
+}
+
+#collapse2 .card-body{
+	font-size: 15px;
+}
+
+#collapse3 .card-body{
+	font-size: 15px;
+}
+
+.aadharform .card-header{
+	background-image: linear-gradient(to right, rgb(255,255,255), rgba(251,166,32,0.76));
+	color: #ff9900;
+}
+
+.aadharformheader{
+	background-color: #FF9900;
+}
+
+
+.form-row input[type=text],input[type=email],input[type=tel],input[type=number],input[type=date],input[type=textarea]{
+	box-sizing: border-box;
+	border: 1px solid green;
+}
+
+#birthform .birthformheader{
+	background-color: #a30600b3;
+}
+
+#birthform .birthformbody{
+	background-image: linear-gradient(to left, rgba(21,70,20,0.27), rgb(255,255,255));
+	color : #a30600c4;
+}
+
+#birthform{
+	background-image: linear-gradient(rgb(255,255,255), rgba(163,6,0,0.43));
+}
+
+
+
+.birthformcollapse{
+	background-image: linear-gradient(rgba(23,249,228,0.4),rgb(255,255,255));
+}
+
+#marriagecertificateform{
+	background-image: linear-gradient(rgb(255,255,255), rgba(40,87,144,0.58));
+}
+
+.marriagecertificateheader{
+	background-image: linear-gradient(to right, rgb(255,255,255), rgba(220,136,218,1));
+	color: #024f8b;
+}
+
+.marriagecertificatebody{
+	background-image: linear-gradient(rgba(245,163,163,0.78), rgb(255,255,255));
+}
+
+
+.nav a:hover{
+      font-size: 1.2em; 
+ }
+
+section a:hover{
+ 	color: white;
+ }
+
+footer div:hover{
+	color: white;
+}
+
+footer a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+#sub{
+	position: relative;
+	width: 90%;
+	display: grid;
+	/*background-color: purple;*/
+}
+
+#update .container button{
+	color: #fff;
+}
+#update .container button:hover{
+	color: #000;
+	background: #fff;
+}
+
+#Aadharupdation a{
+	position: relative;
+	margin: 20 20 20;
+	padding: 10px 10px;
+	text-decoration: none;
+	border: 1px solid #000;
+	/*border-radius: 15px;*/
+	display: inline-block;
+	color: #000;
+	transition: 0.25s;
+	transform: translateY(-40px);
+	opacity: 0;
+	visibility: hidden;
+}
+
+#Aadharupdation:hover a{
+	transform: translateY(0);
+	opacity: 1;
+	visibility: visible;
+}
